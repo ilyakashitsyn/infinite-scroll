@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="./main.css" />
+  <title>Blog About JS</title>
+</head>
+
+<body>
+  <header class="page-header">
+    <h1 class="page-header__title">Blog About JS</h1>
+  </header>
+
+  <main class="main-content">
+    <section class="post-filter">
+      <input type="text" id="filter" class="post-filter__input" placeholder="Filter posts..." />
+    </section>
+
+    <section id="posts-container" class="post-list"></section>
+
+    <div class="loader">
+      <div class="loader__circle"></div>
+      <div class="loader__circle"></div>
+      <div class="loader__circle"></div>
+    </div>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
