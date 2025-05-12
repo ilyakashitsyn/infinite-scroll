@@ -2,6 +2,8 @@
 
 Display blog posts from [jsonplaceholder](https://jsonplaceholder.typicode.com) and add infinite scroll to fetch posts and also add filter box
 
+You can check out the ready-made solution on [Netlify](https://infinite-scroll-0a6e82.netlify.app/)
+
 ### Project Specifications
 
 - Create UI & custom CSS loader animation
